@@ -13,8 +13,8 @@ function Navigation() {
             <Row>
                 <Col xs={2} id='navbar-column'>
                     <Navbar className='d-flex flex-column'>
-                        <h1>felici<span>task</span></h1>
-                        <Nav id='navlinks' className='d-flex flex-column'>
+                        <h1 className='mt-3'>felici<span>task</span></h1>
+                        <Nav id='navlinks' className='d-flex flex-column mt-3'>
                             <NavDropdown title='Channels'>
                                 {/* REMEMBER to link channels correctly later */}
                                 <NavDropdown.Item href='#all-channels'>all</NavDropdown.Item>
